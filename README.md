@@ -7,11 +7,13 @@ DNA
 
 
 
-
+GPG Signing of Repo
+===================
+Thejesh GN <i@thejeshgn.com>
+Fingerprint: C7D4 1911 9893 ADAF 27B0 FCAA BFFC 8DD3 C06D D6B0
 
 License
 =======
-
 Copyright (c) 2013 Thejesh GN  under GNU GPL version 3
 
 along with
