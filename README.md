@@ -1,15 +1,17 @@
 DNA
 ===
+I have blogged about my [intentions behind uploading](http://thejeshgn.com/2013/09/15/my-dna-is-out/) my DNA to the interent. Its probably a better place start with.
 
+The same genome data is available at [OpenSNP](http://opensnp.org/users/1258) if you prefer to use that. OpenSNP also has some phenotypes. I will keep the profile and related info up to date. 
 
-
-
+This git repository will also contain my experiments (code, visualizations, reports) along with the raw genome data. So if you just want raw data then the file you are looking for is [genome_Thejesh_GN.txt](https://github.com/thejeshgn/dna/blob/master/genome_Thejesh_GN.txt).  
 
 
 
 GPG Signing of Repo
 ===================
 Thejesh GN <i@thejeshgn.com>
+
 Fingerprint: C7D4 1911 9893 ADAF 27B0 FCAA BFFC 8DD3 C06D D6B0
 
 License
