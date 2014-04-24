@@ -1,0 +1,403 @@
+body {
+font-family: arial, helvetica, sans-serif;
+color: black;
+}
+label {
+    white-space:nowrap;
+    display: inline;
+}
+#maxitems {
+clear:both;
+border:1;
+color:#f6931f;
+font-weight:bold;
+width:30px;
+}
+
+
+#textfilter {
+   margin: 5px;
+}
+
+
+#num_missed {
+background-color: #F0F0F0;
+text-align: right;
+font-weight:bold;
+width:40px;
+}
+
+#num_count {
+background-color: #F0F0F0;
+text-align: right;
+font-weight:bold;
+width:40px;
+}
+
+
+#magamount {
+border:0;
+background-color: #F0F0F0;
+width:90px;
+}
+#refamount {
+border:0;
+background-color: #F0F0F0;
+width:90px;
+}
+#filters {
+font-size: 14px;
+margin: 10px 0 0 0;
+}
+#modes {
+margin: 0 0 0 3px;
+}
+.sliderbutton {
+ padding: 0 5px 5px 5px;
+ height: 20px;
+ float:left;
+ font-size:8px;
+ border:1px solid lightgray;
+}
+#magslider-range {
+float:left;
+margin:5px;
+width:130px;
+margin-left:15px;
+margin-right:15px;
+}
+#refslider-range {
+float:left;
+margin:5px;
+width:130px;
+margin-left:15px;
+margin-right:15px;
+}
+.updatebutton {
+}
+.goodbutton {
+}
+.genopartsbutton {
+clear:both;
+font-size:50%;
+vertical-align: super;
+}
+#footerBox {
+clear:both;
+float:left;
+background-color:#f7f7f7;
+border:1px solid #dadada;
+width:600px;
+margin-bottom:10px;
+line-height:18px;
+}
+#genoslist .noRepute {
+clear:both;
+float:left;
+background-color:#f7f7f7;
+border:1px solid #dadada;
+width:600px;
+margin-bottom:10px;
+line-height:18px;
+}
+#genoslist .goodRepute {
+clear:both;
+float:left;
+background-color:#f7f7f7;
+border:2px solid #80ff80;
+width:600px;
+margin-bottom:10px;
+line-height:18px;
+}
+#genoslist .badRepute {
+clear:both;
+float:left;
+background-color:#f7f7f7;
+border:2px solid #ff8080;
+width:600px;
+margin-bottom:10px;
+line-height:18px;
+}
+button {
+padding: 3px;
+font-size: 14px;
+margin-left: 1px;
+font-size: 14px;
+position:relative;
+z-index:3;
+margin: 1px;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+border: 1px solid gray;
+display:inline-block;
+text-decoration:none;
+background:#FAFAFA;
+}
+button:hover {
+cursor: pointer;
+color: #ffffff;
+background: #383;
+}
+#navmenu {
+background-color: #F0F0F0;
+position:fixed;
+right:5px;
+top:5px;
+border:1px solid black;
+z-index:2;
+}
+#horizon {
+color: white;
+background-color: transparent;
+text-align: left;
+position: fixed;
+top: 50%;
+left: 0px;
+width: 100%;
+height: 1px;
+overflow: visible;
+visibility: visible;
+display: block;
+z-index: -10;
+}
+#content {
+font-family: Verdana, Geneva, Arial, sans-serif;
+background-color: transparent;
+margin-left: -125px;
+position: absolute;
+top: -135px;
+left: 50%;
+width: 450px;
+height: 400px;
+visibility: visible
+}
+#help {
+border-radius: 15px;
+width:80%;
+height:80%;
+background-color:#000000;
+border:5px red;
+position:absolute;
+z-index:1;
+padding:20px;
+margin:20px;
+display:none;
+color: white;
+}
+#help a {
+  color: #8080f0;
+  text-decoration: none;
+}
+#andor {
+margin: 5px;
+padding: 3px;
+}
+#textfilterold {
+padding: 3px;
+width:270px;
+float:left;
+}
+#extgraphbutton {
+clear:both;
+float:left;
+padding: 3px;
+}
+#tabformatbutton {
+margin: 0 10px 3px 10px;
+float:left;
+padding: 3px;
+}
+#helpbutton {
+float:left;
+padding: 3px;
+}
+.dbsnp {
+background-color: #F0FAAA;
+word-wrap: break-word;
+}
+#tags {
+clear:both;
+}
+#tagsummary {
+background-color: #F3F3F3;
+position:fixed;
+right:5px;
+top:400px;
+border:0px solid black;
+font-size: 24px;
+z-index:2;
+width:280px;
+}
+#navbox {
+border:1px solid black;
+padding-left: 170px;
+float: right;
+clear: none;
+padding: 0px;
+min-width: 50%;
+max-width: 69%;
+}
+#controls {
+width:325px;
+height:560px;
+background-color: #F0F0F0;
+clear: both;
+padding:5px 5px 5px 5px;
+position:fixed;
+right:5px;
+top:55px;
+border:4px solid blue;
+z-index:0;
+display:none;
+}
+#genoslist {
+position:relative;
+top:55px;
+z-index:0;
+}
+#navbar {
+position:fixed;
+width:605px;
+z-index:1;
+}
+#expandcontractdiv {
+border:1px dotted #dedede;
+background-color:#EBE4F2;
+margin:0 0 .5em 0;
+padding:0.4em;
+}
+.majorsection {
+float:left;
+width:95%;
+border:1px solid black;
+clear:both;
+margin: 5px 0px;
+padding: 0px 10px;
+}
+.sectiontext {
+clear:both;
+font-size: x-large;
+}
+.boxresult {
+width: inherit;
+}
+.newboxresult {
+width: inherit;
+background-color:#FBF4F2;
+border: 1px solid grey;
+}
+.tags {
+clear:both;
+}
+.boxresultcol1 {
+clear:both;
+float: left;
+width: 190px;
+margin: 0;
+word-wrap: break-word;
+}
+.boxresultcol2 {
+margin-left: 190px;
+}
+.boxfreq {
+float:left;
+width:55px;
+}
+.boxfreq2 {
+float:left;
+clear:both;
+}
+.boxfreq3 {
+float:left;
+clear:both;
+}
+a.label {
+color:#FFFFFF;
+}
+a.label:hover, a.badge:hover {
+text-decoration: underline;
+color:#CCCC00;
+}
+.moreless:link {
+color:#003399;
+text-decoration: none;
+}
+.moreless:hover {
+text-decoration: underline;
+color:#0033CC;
+}
+.boxlink {
+font-size:medium;
+float:left;
+width:160px;
+}
+.boxmag {
+float:left;
+width:170px;
+clear:both;
+}
+.newboxmag {
+float:left;
+width:40px;
+}
+.boxeffect {
+float:left;
+background-color:#f7f7f7;
+}
+.gsboxeffect {
+float:left;
+width:400px;
+}
+.boxshow {
+float:left;
+width:100px;
+}
+.rstext {
+float:left;
+background-color: #D0D0FB;
+padding:5px;
+display:none;
+}
+.diseasebutton {
+margin-left: 20px;
+float:left;
+clear: both;
+}
+.member-Topic {
+margin-left: 40px;
+border:1px solid black;
+clear: both;
+}
+.member-is-a-medical-condition {
+margin-left: 40px;
+border:1px solid black;
+clear: both;
+}
+.member-is-a-medicine {
+margin-left: 40px;
+border:1px solid black;
+clear: both;
+}
+.adiseasebox {
+width: 90%;
+float:left;
+margin-left: 40px;
+clear: both;
+}
+.diseaselink {
+margin-left: 240px;
+FONT-SIZE: 18pt;
+}
+.diseaseinfo {
+margin-left: 350px;
+}
+.boxfooter {
+clear: both;
+margin: 0;
+border-top: 1px solid gray;
+}
+.majorboxfooter {
+clear: both;
+margin: 0;
+border-top: 1px solid gray;
+}

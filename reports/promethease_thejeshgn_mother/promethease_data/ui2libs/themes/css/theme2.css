@@ -1,0 +1,13 @@
+#controls {
+width:325px;
+height:560px;
+background-color: #F0F0F0;
+clear: both;
+padding:5px 5px 5px 5px;
+position:fixed;
+right:5px;
+top:55px;
+border:4px solid green;
+z-index:0;
+display:none;
+}
