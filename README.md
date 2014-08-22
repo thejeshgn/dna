@@ -1,11 +1,10 @@
 DNA
 ===
-I have blogged about my [intentions behind uploading](http://thejeshgn.com/2013/09/15/my-dna-is-out/) my DNA to the interent. Its probably a better place start with.
+This git repository will also contain my experiments (code, visualizations, reports) along with the raw genome data.
 
-The same genome data is available at [OpenSNP](http://opensnp.org/users/1258) if you prefer to use that. OpenSNP also has some phenotypes. I will keep the profile and related info up to date. 
-
-This git repository will also contain my experiments (code, visualizations, reports) along with the raw genome data. So if you just want raw data then look into genome folder.
-
+HOME
+====
+Please visit [My DNA Project page](http://thejeshgn.com/dna/) for all the information and latest updates. You will also find links to all other stuff related to my DNA.
 
 GPG Signing of Repo
 ===================
@@ -41,8 +40,3 @@ OUT OF OR IN CONNECTION WITH THE SEQUENCE OR THE USE OR OTHER DEALINGS IN
 THE SEQUENCE.
 
 
-
-Links
-====
-
-- [23andme format to VCF converter](https://github.com/arrogantrobot/23andme2vcf)
