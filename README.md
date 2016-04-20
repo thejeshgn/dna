@@ -2,6 +2,7 @@ DNA
 ===
 This git repository will also contain my experiments (code, visualizations, reports) along with the raw genome data.
 
+
 HOME
 ====
 Please visit [My DNA Project page](http://thejeshgn.com/dna/) for all the information and latest updates. You will also find links to all other stuff related to my DNA.
@@ -11,12 +12,6 @@ GPG Signing of Repo
 Thejesh GN <i@thejeshgn.com>
 Fingerprint: C7D4 1911 9893 ADAF 27B0 FCAA BFFC 8DD3 C06D D6B0
 
-<table>
-  <tr>
-    <td><img src="http://www.gravatar.com/avatar/4545b2a84b0ae407abc97ad8f23cc28b?s=60"></td><td valign="middle">Thejesh GN<br><a href="http:/thejeshgn.com">http://thejeshgn.com</a></td>
-    <td>i-at-thejeshgn-com <br> GPG ID :  0xBFFC8DD3C06DD6B0</td>
-  </tr>
-</table>
 
 License
 =======
